@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 7px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  padding: 1.6rem 0;
+  height: auto;
+}
+
+img {
+  width: 100%;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header {
+  height: 46rem;
+}
+
+header div.bg-image {
+  position: absolute;
+  background-image: url("/Responsive Site/img/gunesin_dogusu_ve_batisi.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 46rem;
+  width: 100%;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+header div h1 {
+  padding: 12rem;
+  padding-bottom: 0;
+}
+
+.btn {
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  border: 1px solid #666;
+  padding: 1.6rem 3.2rem;
+  margin: 0.5rem 0;
+  transition: all 0.4s;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+#section-a {
+  background-color: #eaeaea;
+  color: #333;
+  padding: 3.2rem 0;
+}
+
+#section-b {
+  padding: 2rem;
+}
+
+#section-b ul {
+  list-style: none;
+}
+
+#section-b li {
+  background: #fff;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.col-content {
+  padding: 1.5rem;
+}
+
+#section-c {
+  background-color: #eaeaea;
+  color: #333;
+  padding: 5rem;
+}
+
+#section-d div.box {
+  padding: 5rem;
+}
+
+#section-d div.box:first-child {
+  background-color: darkslategrey;
+}
+
+#section-d a {
+  color: yellowgreen;
+}
+
+footer {
+  padding: 40px;
+  background-color: black;
+}
+
+footer a {
+  color: yellowgreen;
+}
+
+@media screen and (min-width: 800px) {
+  html {
+    font-size: 9px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 11px;
+  }
+
+  #section-b li {
+    width: 28%;
+    margin: 1%;
+    display: inline-block;
+  }
+
+  .box {
+    width: 50%;
+    float: left;
+  }
+}
